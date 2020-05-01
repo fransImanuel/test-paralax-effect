@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Website Demo</title>
+    <link rel="stylesheet" href="styles.css">
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="pimg1">
+        <div class="ptext">
+            <button onclick="changeBanner()"  class="border">
+                Parallax Effect
+            </button>
+        </div>
+    </div>
+
+    <section class="section section-light">
+        <h2>Section One</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt maxime distinctio blanditiis porro impedit incidunt excepturi fugit nihil assumenda quae ad quis earum, in harum numquam voluptatibus est, expedita sint, doloremque temporibus. Molestias quis harum consequuntur vitae, maxime amet eveniet est earum repudiandae iure quos minima non dolores, iusto vel illum? Ea similique a qui dicta perferendis ratione sint maiores? Consequuntur possimus maxime, vel corporis quia nulla dolor blanditiis eaque itaque ad iusto dolore error nihil incidunt corrupti ratione repellat voluptate, pariatur expedita perferendis saepe dolorum? Voluptatem, quas, ratione debitis velit quia modi quibusdam nostrum, explicabo nesciunt animi nam pariatur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, reprehenderit nobis dignissimos quas sapiente quisquam architecto exercitationem doloribus mollitia, consequuntur nesciunt, delectus est! Aliquid provident sapiente maiores optio possimus mollitia.</p>
+    </section>
+
+    <div class="pimg2">
+        <div class="ptext">
+            <span class="border trans">
+                Image Two Page
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-dark">
+        <h2>Section Two</h2>
+        <p>d quis earum, in harum numquam voluptatibus est, expedita sint, doloremque temporibus. Molestias quis harum consequuntur vitae, maxime amet eveniet est earum repudiandae iure quos minima non dolores, iusto vel illum? Ea similique a qui dicta perferendis ratione sint maiores? Consequuntur possimus maxime, vel corporis quia nulla dolor blanditiis eaque itaque ad iusto dolore error nihil incidunt corrupti ratione repellat voluptate, pariatur expedita perferendis saepe dolorum? Voluptatem, quas, ratione debitis velit quia modi quibusdam nostrum, explicabo nesciunt animi nam pariatur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, reprehenderit nobis dignissimos quas sapiente quisquam architecto exercitationem doloribus mollitia, consequuntur nesciunt, delectus est! Aliquid provident sapiente maiores optio possimus mollitia.</p>
+    </section> 
+
+    <div class="pimg3">
+        <div class="ptext">
+            <span class="border trans">
+                Image Two Page
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-dark">
+        <h2>Section Three</h2>
+        <p>d quis earum, in harum numquam voluptatibus est, expedita sint, doloremque temporibus. Molestias quis harum consequuntur vitae, maxime amet eveniet est earum repudiandae iure quos minima non dolores, iusto vel illum? Ea similique a qui dicta perferendis ratione sint maiores? Consequuntur possimus maxime, vel corporis quia nulla dolor blanditiis eaque itaque ad iusto dolore error nihil incidunt corrupti ratione repellat voluptate, pariatur expedita perferendis saepe dolorum? Voluptatem, quas, ratione debitis velit quia modi quibusdam nostrum, explicabo nesciunt animi nam pariatur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, reprehenderit nobis dignissimos quas sapiente quisquam architecto exercitationem doloribus mollitia, consequuntur nesciunt, delectus est! Aliquid provident sapiente maiores optio possimus mollitia.</p>
+    </section> 
+
+    <div class="pimg1">
+        <div class="ptext">
+            <span class="border">
+                Parallax Effect
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-light">
+        <h2>Section One</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt maxime distinctio blanditiis porro impedit incidunt excepturi fugit nihil assumenda quae ad quis earum, in harum numquam voluptatibus est, expedita sint, doloremque temporibus. Molestias quis harum consequuntur vitae, maxime amet eveniet est earum repudiandae iure quos minima non dolores, iusto vel illum? Ea similique a qui dicta perferendis ratione sint maiores? Consequuntur possimus maxime, vel corporis quia nulla dolor blanditiis eaque itaque ad iusto dolore error nihil incidunt corrupti ratione repellat voluptate, pariatur expedita perferendis saepe dolorum? Voluptatem, quas, ratione debitis velit quia modi quibusdam nostrum, explicabo nesciunt animi nam pariatur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, reprehenderit nobis dignissimos quas sapiente quisquam architecto exercitationem doloribus mollitia, consequuntur nesciunt, delectus est! Aliquid provident sapiente maiores optio possimus mollitia.</p>
+    </section>
+</body>
+
+<script>
+    $(document).ready(function(){
+        
+    })
+    function changeBanner(){
+        $('.border').on("click",function(){
+            $('.pimg1').css("background-image","url('2.jpg')");
+        })
+    }
+    
+</script>
+</html>
